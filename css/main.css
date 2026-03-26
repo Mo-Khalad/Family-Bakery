@@ -90,16 +90,16 @@ a{
 .first2 .ptno2{
     border: 2px solid #fff;
 }
-    .first2 button{
-        background-color: transparent;
-        border: 0 solid ;
-        padding: 13px 15px;
-        color: #fff;
-        font-size: 15px;
-    }
-    .first2 .ptno1{
-        background-color:#b69250;
-    }
-    .first2 .ptno2{
-        border: 2px solid #fff;
-    }
+.first2 button{    
+    background-color: transparent;
+    border: 0 solid ;
+    padding: 13px 15px;
+    color: #fff;
+    font-size: 15px;
+}
+.first2 .ptno1{
+    background-color:#b69250;
+}
+.first2 .ptno2{
+    border: 2px solid #fff;
+}
