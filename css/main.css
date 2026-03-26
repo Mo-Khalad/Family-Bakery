@@ -1,23 +1,21 @@
 *{
     padding: 0;
     margin: 0;
-
-}.first{
+}
+body{
     background-image: url(../imgs/1.jpg);
     background-size: 100% 100%;
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
+    min-width: 100%;
 }
 .first1{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
-
-    height: 10%;
+    min-height: 5%;
 }
 .first1 img{
     width: 100%;
-    
 }
 .imgs{
     width: 45px;
@@ -31,7 +29,6 @@
     padding-top: 10px;
     color: #fff;
     padding-top: 10px;
-    
 }
 .cle{
     clear: both;
@@ -44,24 +41,19 @@ li{
 }
 .nav{
    float: right;
-   padding-right: 60px;
-   
+   padding-right: 60px;   
    padding-top: 15px;
 }
 .ooo{
     float: left;
     height: 25px;
-    
-    
 }
 a{
     color: #fff;
-
 }
 .nav ul{
     list-style-type: none;
-    }
-
+}
 
 .first2{
     text-align: center;
@@ -99,8 +91,7 @@ a{
     border: 2px solid #fff;
 }
 
-
-@media screen and (max-width:567px) {
+@media screen and (max-width:500px) {
     .first{
         background-image: url(../imgs/1.jpg);
         background-size: 100% 100%;
@@ -110,8 +101,8 @@ a{
     li{
         float: left;
         color: #fff;
-        padding-left: 10px;
-        font-size: 13px;
+        padding-left: 15px;
+        font-size: 32px;
     }   
     .nav{
         float: right;
@@ -121,52 +112,46 @@ a{
      .ooo{
         float: left;
         height: 45px;
-        
     }
     .first1 img{
         width: 100%;
         height: 55px;
-
     }
     .po{
         width: 145px;
         float: left;
-        font-size: 25px;
+        font-size: 50px;
         padding-top: 11px;
         color: #fff;
-        
     } 
-    .first1{
-        background-color: rgba(0, 0, 0, 0.5);
-        height: 10%;
-    }
-    .imgs{
-        width: 45px;
-        float: left;
-        padding-top: 0;
-    }
-    
-    
-
-
-    
+.first1{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 5%;
+}
+.imgs{
+    width: 50px;
+    float: left;
+    padding-top: 17px;
+}
 .first2{
     text-align: center;
     padding-top: 180px;
     width: 60%;
+    padding-top: 480px;
     margin: auto;
     color: #fff;
 }    
 .first2 h5{
-    font-size: 10px;
+    font-size: 50px;
+    margin-bottom: 20px;
     font-weight: 100;
 }
 .first2 h2{
-    font-size: 24px;
+    font-size: 50px;
     padding: 25px;
 }
 .first2 p{
-    font-size: 10px;
+    font-size: 50px;
     font-weight: 100;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-bottom: 25px;
@@ -174,22 +159,25 @@ a{
 .first2 button{
     background-color: transparent;
     border: 0 solid ;
-    padding: 10px 12px;
+    padding: 40px 42px;
     color: #fff;
-    font-size: 13px;
+    font-size: 75px;
 }
 
  .first2 .ptno1{
     background-color:#b69250;
+    font-size: 40px;
+    padding: 30px 40px;
+    margin-right: 20px;
 }
 .first2 .ptno2{
     border: 2px solid #fff;
+    font-size: 40px;
+    padding: 30px 40px;
 }
         
 }
 @media screen and (min-width:568px) and (max-width:767px) {
-
-
     .first{
         background-image: url(../imgs/1.jpg);
         background-size: 100% 100%;
@@ -198,7 +186,7 @@ a{
     }
     .first1{
         background-color: rgba(0, 0, 0, 0.5);
-        height: 11%;
+        height: 5%;
     }
     .imgs{
         width: 45px;
@@ -208,7 +196,7 @@ a{
     .po{
         width: 145px;
         float: left;
-        font-size: 29px;
+        font-size: 20px;
         padding-top: 10px;
         color: #fff;
         
@@ -218,27 +206,21 @@ a{
         float: left;
         color: #fff;
         padding-left: 15px;
-        font-size: 14px;
+        font-size: 15px;
     }   
     .nav{
         float: right;
         padding-right: 40px;
-        
         padding-top: 18px;
     }
      .ooo{
         float: left;
         height: 45px;
-        
-        
     }
     .first1 img{
         width: 100%;
         height: 55px;
 } 
-
-
-    
 .first2{
     text-align: center;
     padding-top: 180px;
@@ -247,7 +229,7 @@ a{
     color: #fff;
 }    
 .first2 h5{
-    font-size: 14px;
+    font-size: 30px;
     font-weight: 100;
 }
 .first2 h2{
@@ -255,7 +237,7 @@ a{
     padding: 25px;
 }
 .first2 p{
-    font-size: 14px;
+    font-size: 30px;
     font-weight: 100;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-bottom: 25px;
@@ -265,17 +247,21 @@ a{
     border: 0 solid ;
     padding: 12px 14px;
     color: #fff;
-    font-size: 15px;
+    font-size: 40px;
 }
 
  .first2 .ptno1{
     background-color:#b69250;
+    font-size: 30px;
+    padding: 20px 30px;
+    margin-right: 15px;
 }
 .first2 .ptno2{
     border: 2px solid #fff;
-}
-        
-
+    font-size: 30px;
+    padding: 20px 30px;
+    margin-right: 15px;
+  }
 }
 
 @media screen and (min-width:768px) and (max-width:992px) {
@@ -287,8 +273,7 @@ a{
     }
     .nav{
         float: right;
-        padding-right: 80px;
-        
+        padding-right: 80px;        
         padding-top: 10;
      }
      .first1{
@@ -306,11 +291,7 @@ a{
         font-size: 26px;
         padding-top: 11px;
         color: #fff;
-        
     } 
-
-
-
     .first2{
         text-align: center;
         padding-top: 180px;
@@ -345,11 +326,3 @@ a{
     .first2 .ptno2{
         border: 2px solid #fff;
     }
-
-    
-
-
-   
-    
-    
-
